@@ -41,4 +41,12 @@
       </plugin>
     </plugins>
   </build>
+   <id>deployment</id>
+      <url>http://192.168.33.41:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>deployment</id>
+      <url>http://192.168.33.41:8081/repository/Myname_release/</url>
+    </repository>
+    <site>
 </project>
