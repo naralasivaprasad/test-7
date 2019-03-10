@@ -4,7 +4,7 @@
   <groupId>com.example</groupId>
   <artifactId>java-tomcat-maven-example</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -46,6 +46,7 @@
       <id>deployment</id>
       <url>http://192.168.33.41:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
+         
     <repository>
       <id>deployment</id>
      <url>http://192.168.33.41:8081/repository/Myname_release/</url>
