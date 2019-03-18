@@ -44,12 +44,12 @@
    <distributionManagement>
     <snapshotRepository>
       <id>deployment</id>
-      <url>http://192.168.33.41:8081/repository/maven-snapshots/</url>
+      <url>http://192.168.33.41:8081/repository/myrepo-snap/</url>
     </snapshotRepository>
          
     <repository>
       <id>deployment</id>
-     <url>http://192.168.33.41:8081/repository/Myname_release/</url>
+     <url>http://192.168.33.41:8081/repository/myrepo-release/</url>
     </repository>
   </distributionManagement>
 </project>
